@@ -5,7 +5,7 @@ body {
 .main {
   background-image: url("images/apartment.jpg");
   background-repeat: no-repeat;
-  height: 700px;
+  height: 88vh;
 }
 
 .navbar {
@@ -55,5 +55,70 @@ body {
   text-align: center;
   border-radius: 10px;
   opacity: 0.9;
+}
+
+.squares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0;
+}
+
+.squares .left_square {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 35vh;
+  background: #bbbef0;
+}
+
+.squares .left_square h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.squares .left_square p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.squares .right_square {
+  width: 50%;
+  height: 35vh;
+  background: #e9e2d8;
+}
+
+.squares .right_square h2 {
+  margin: 15px;
+}
+
+.squares .right_square p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.squares .left_square2 {
+  width: 50%;
+  height: 35vh;
+  background: #e9e2d8;
+}
+
+.squares .right_square2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 35vh;
+  background: #bbbef0;
+}
+
+.squares .right_square2 h2 {
+  margin: 15px;
+}
+
+.squares .right_square2 p {
+  text-align: justify;
+  margin: 15px;
 }
 /*# sourceMappingURL=style.css.map */
