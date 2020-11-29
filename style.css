@@ -121,4 +121,79 @@ body {
   text-align: justify;
   margin: 15px;
 }
+
+.last_offers {
+  background: white;
+}
+
+.last_offers .title {
+  padding-top: 2vh;
+  margin: 0 0 0 -115vh;
+  color: black;
+}
+
+.last_offers .sales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5vh 0 0 20vh;
+}
+
+.last_offers .sales .apartment_image {
+  border-radius: 2px;
+  width: 70vh;
+  height: 40vh;
+  margin-right: 2vh;
+}
+
+.last_offers .sales .sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 9vh;
+}
+
+.last_offers .sales .sale .list {
+  list-style-image: url("images/diamond.png");
+}
+
+.last_offers .sales .sale .price {
+  font-weight: bold;
+  color: rgba(151, 60, 0, 0.795);
+}
+
+.last_offers .purchases {
+  background: #ebe1e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5vh 0 0 20vh;
+}
+
+.last_offers .purchases .apartment_image {
+  border-radius: 2px;
+  width: 70vh;
+  height: 40vh;
+  margin-right: 2vh;
+}
+
+.last_offers .purchases .purchase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 9vh;
+}
+
+.last_offers .purchases .purchase .list {
+  list-style-image: url("images/diamond2.png");
+}
+
+.last_offers .purchases .purchase .price {
+  font-weight: bold;
+  color: rgba(151, 60, 0, 0.795);
+}
 /*# sourceMappingURL=style.css.map */
