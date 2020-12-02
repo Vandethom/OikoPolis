@@ -132,6 +132,10 @@ body {
   color: black;
 }
 
+.last_offers .last_sales {
+  margin-left: 56px;
+}
+
 .last_offers .sales {
   display: -webkit-box;
   display: -ms-flexbox;
