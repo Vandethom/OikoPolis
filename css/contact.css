@@ -26,7 +26,7 @@ body {
 }
 
 .main {
-  background-image: url("images/paris_city.jpeg");
+  background-image: url("../images/paris_city.jpeg");
   background-repeat: no-repeat;
   height: 88vh;
   width: 100%;
@@ -56,5 +56,10 @@ body {
   text-align: center;
   border-radius: 10px;
   opacity: 0.9;
+}
+
+.mate h2 {
+  color: blue;
+  margin: 50px;
 }
 /*# sourceMappingURL=contact.css.map */
