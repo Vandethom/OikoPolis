@@ -26,9 +26,9 @@ body {
 }
 
 .main {
-  background-image: url("../images/paris_city.jpeg");
+  background-image: url("../images/paris_city3.jpg");
   background-repeat: no-repeat;
-  height: 88vh;
+  height: 87vh;
   width: 100%;
 }
 
@@ -57,28 +57,4 @@ body {
   border-radius: 10px;
   opacity: 0.9;
 }
-
-.team_concept {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.team_concept img {
-  margin: 5vh 0 0 16vh;
-}
-
-.team_concept .ourProject h2 {
-  color: #1f1fa8;
-  margin: 35px 0 50px 90px;
-}
-
-.team_concept .ourProject h3 {
-  color: #3264ad;
-  margin-left: 110px;
-}
-
-.team_concept .ourProject p {
-  margin: 25px 0 40px 110px;
-}
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=buys.css.map */

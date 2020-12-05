@@ -21,7 +21,7 @@ body{
 }
 
 .main{
-    background-image: url('../images/paris_city.jpeg');
+    background-image: url('../images/paris_city2.jpg');
     background-repeat: no-repeat;
     height: 88vh;
     width: 100%;
@@ -47,25 +47,5 @@ body{
         text-align: center;
         border-radius: 10px;
         opacity: 0.9;
-    }
-}
-
-.team_concept{
-    display: flex;
-    img{
-        margin: 5vh 0 0 16vh;
-    }
-    .ourProject{
-        h2{
-            color: rgb(31, 31, 168);
-            margin: 35px 0 50px 90px;
-        }
-        h3{
-            color: rgb(50, 100, 173);
-            margin-left: 110px;
-        }
-        p{
-            margin: 25px 0 40px 110px;
-        }
     }
 }

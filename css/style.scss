@@ -2,12 +2,6 @@ body{
     margin: 0;
 }
 
-.main{
-    background-image: url('../images/apartment.jpg');
-    background-repeat: no-repeat;
-    height: 88vh;
-}
-
 .navbar{
     display: flex;
     flex-direction: row;
@@ -46,56 +40,6 @@ body{
         text-align: center;
         border-radius: 10px;
         opacity: 0.9;
-    }
-}
-
-.squares{
-    display: flex;
-    margin-top: 0;
-    .left_square{
-        display: flex;
-        width: 50%;
-        height: 35vh;
-        background: rgb(187, 190, 240);
-        h2{
-            text-align: center;
-            margin: 15px;
-        }
-        p{
-            text-align: justify;
-            margin: 15px;
-        }
-    }
-    .right_square{
-        width: 50%;
-        height: 35vh;
-        background: rgb(233, 226, 216);
-        h2{
-            margin: 15px;
-        }
-        p{
-            text-align: justify;
-            margin: 15px;
-
-        }
-    }
-    .left_square2{
-        width: 50%;
-        height: 35vh;
-        background: rgb(233, 226, 216);
-    }
-    .right_square2{
-        display: flex;
-        width: 50%;
-        height: 35vh;
-        background: rgb(187, 190, 240);
-        h2{
-            margin: 15px;
-        }
-        p{
-            text-align: justify;
-            margin: 15px;
-        }
     }
 }
 
