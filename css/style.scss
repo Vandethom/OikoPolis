@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'Babel Sans';
+    src: url('../fonts/babelsans.ttf');
+}
+
+*{
+    font-family: 'Babel Sans';
+    font-size: 103%;
+}
+
 body{
     margin: 0;
 }

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/buys.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="top"></div>
+    <section class="main">
+        <header>
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="buy.html">Acheter / Louer</a>
+                </li>
+                <li>
+                    <a href="sell.html">Vendre</a>
+                </li>
+                <li>
+                    <a href="contact.html">Qui sommes-nous?</a>
+                </li>
+            </ul>
+        </header>
+
+        <section class="title">
+            <h1>
+                OikoPolis
+            </h1>
+            <h2>
+                Votre partenaire immobilier.
+            </h2>
+        </section>
+
+        <section class="cards">
+            <article class="card">
+                <h3>
+                    Le concept
+                </h3>
+                <p>
+                    Pour pallier à la crise, quoi de mieux que le rapprochement. Nous vous soutenons dans votre achat
+                    comme dans la vente pour que vous puissiez construire un futur sans soucis.
+                </p>
+            </article>
+            <article class="card">
+                <h3>
+                    Nos valeurs
+                </h3>
+                <p>
+                    Que des visages amicaux, des gens gentils bien comme il faut !
+                </p>
+            </article>
+            <article class="card">
+                <h3>
+                    Notre expertise
+                </h3>
+                <p>
+                    Une équipe de professionnels vous accompagne tout au long du processus de recherche. C'est la
+                    garantie de trouver le bien qu'il vous faut !
+                </p>
+            </article>
+        </section>
+    </section>
+
+    <section class="sellGood">
+        <article>
+            <h2>
+                Estimer le prix de votre bien avec un expert immobilier
+            </h2>
+            <p>
+                Nos experts sont à votre disposition pour déterminer le prix de votre bien immobilier. Qu'il s'agisse de
+                le vendre ou le louer ou dans le cadre des viagers et successions, nous vous apporterons au plus vite
+                une estimation fidèle de votre bien ainsi que les démarches à opérer.
+            </p>
+            <div class="contactButtons">
+                <a class="anchor" href="#beCalled">
+                    Se faire contacter par nos experts
+                </a>
+                <br />
+                <a class="anchor" href="#call">
+                    Estimer mon bien en ligne
+                </a>
+            </div>
+        </article>
+
+        <article>
+            <div id="call"></div>
+            <h2>
+                Effectuer mon estimation en ligne
+            </h2>
+            <p>
+                Utilisez l'outil d'estimation en ligne pour obtenir un devis automatique.
+            </p>
+            <form class="callForm" action="#">
+                <div class="formFirstPart">
+                    <input id="typeApartment" name="type" type="radio">
+                    <label class="radioInput" for="typeApartment">Appartement</label>
+                    <input id="typeHouse" name="type" type="radio">
+                    <label class="radioInput" for="typeHouse">Maison</label>
+                    <input class="textInput" id="number" placeholder="N°" type="number">
+                    <input class="textInput" id="street" placeholder="Voie" type="text"><br />
+                </div>
+                <div class="formSecondPart">
+                    <input class="textInput" id="postCode" placeholder="CP" type="text">
+                    <input class="textInput" id="city" placeholder="Ville" type="text">
+                    <input class="textInput" id="Etage" placeholder="Etage" type="text"><br />
+                    <div class="formCheckPart">
+                        <input class="checkBoxInput" id="legalApprove" type="checkbox">
+                        <label for="legalApprove">J'ai lu et j'accepte les conditions d'utilisation</label><br />
+                    </div>
+                </div>
+                <button type="submit">Estimer mon bien !</button>
+            </form>
+        </article>
+
+        <article>
+            <div id="beCalled"></div>
+            <h2>
+                Obtenir un rendez-vous avec nos conseillers
+            </h2>
+            <p>
+                Remplissez le formulaire suivant pour être recontacté par nos conseillers dans les plus brefs délais
+
+            </p>
+            <form class="beCalledForm" action="#">
+                <div class="formFirstPart">
+                    <input class="textInput" id="name" placeholder="Prénom" type="text">
+                    <input class="textInput" id="lastName" placeholder="Nom" type="text">
+                </div>
+                <div class="formSecondPart">
+                    <input class="textInput" id="email" placeholder="Email" type="text">
+                    <input class="textInput" id="phone" placeholder="Téléphone" type="phone">
+                </div>
+                <textarea placeholder="Vos commentaires" id="comments" cols="85" rows="12"></textarea><br />
+                <button type="submit">Demander une prise de contact !</button>
+            </form>
+        </article>
+    </section>
+
+    <div class="anchorToTop">
+        <a href="#top">
+            <img src="images/arrow.png" alt="Flèche vers le haut de page">
+        </a>
+    </div>
+</body>
+
+</html>

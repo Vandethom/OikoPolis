@@ -1,30 +1,3 @@
-body {
-  margin: 0;
-}
-
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  list-style-type: none;
-  margin: 0;
-  padding-top: 30px;
-}
-
-.navbar li a {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  color: #630e0e;
-}
-
 .main {
   background-image: url("../images/paris_city3.jpg");
   background-repeat: no-repeat;
@@ -32,29 +5,128 @@ body {
   width: 100%;
 }
 
-.title {
-  margin-top: 150px;
+.sellGood h2 {
   text-align: center;
-  font-weight: bold;
-  color: white;
-  font-size: 24px;
+  font-size: 30px;
+  color: #bb2323;
+  margin-top: 75px;
 }
 
-.cards {
+.sellGood p {
+  text-align: center;
+  margin: auto auto 30px auto;
+  width: 60%;
+}
+
+.sellGood .contactButtons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 50px 0 0 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
-.cards .card {
-  width: 200px;
+.sellGood .contactButtons .anchor {
+  padding-top: 18px;
+  width: 380px;
+  height: 40px;
+  margin-top: 8px;
+  text-decoration: none;
   color: white;
-  margin-left: 30px;
-  padding: 0 10px 0 10px;
-  background: #774646;
-  text-align: center;
-  border-radius: 10px;
-  opacity: 0.9;
+  background: #d40909;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.callForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.callForm .radioInput {
+  margin-right: 10px;
+}
+
+.callForm .textInput {
+  height: 30px;
+  width: 225px;
+  margin: 10px 5px 10px 5px;
+}
+
+.callForm button {
+  background: #d40909;
+  color: white;
+  margin-top: 18px;
+  width: 225px;
+  height: 50px;
+  border: none;
+}
+
+.callForm button:hover {
+  cursor: pointer;
+}
+
+.beCalledForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.beCalledForm .radioInput {
+  margin-right: 10px;
+}
+
+.beCalledForm .textInput {
+  height: 30px;
+  width: 302px;
+  margin: 10px 5px 10px 5px;
+}
+
+.beCalledForm button {
+  background: #d40909;
+  color: white;
+  margin: 18px 0 25px 0;
+  width: 250px;
+  height: 50px;
+  border: none;
+}
+
+.beCalledForm button:hover {
+  cursor: pointer;
+}
+
+.anchorToTop {
+  background-color: #cccccc;
+  opacity: 0.5;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
 }
 /*# sourceMappingURL=buys.css.map */
