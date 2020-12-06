@@ -40,7 +40,8 @@ body{
 
 .cards{
     display: flex;
-    margin: 50px 0 0 400px;
+    justify-content: center;
+    align-content: center;
     .card{
         width: 200px;
         color: white;
