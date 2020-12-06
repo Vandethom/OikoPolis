@@ -37,6 +37,8 @@ body{
 
 .cards{
     display: flex;
+    justify-content: center;
+    align-content: center;
     .card{
         width: 200px;
         color: white;
