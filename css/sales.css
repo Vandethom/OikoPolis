@@ -32,36 +32,6 @@ body {
   width: 100%;
 }
 
-.title {
-  margin-top: 150px;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  font-size: 24px;
-}
-
-.cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.cards .card {
-  width: 200px;
-  color: white;
-  margin-left: 30px;
-  padding: 0 10px 0 10px;
-  background: #774646;
-  text-align: center;
-  border-radius: 10px;
-  opacity: 0.9;
-}
-
 form {
   display: -webkit-box;
   display: -ms-flexbox;
