@@ -57,6 +57,44 @@
         </section>
     </section>
 
+    <form class="criteria">
+        <div class="type">
+            <label for="apartment">Appartement</label>
+            <input class="checkBoxInput" id="apartment" type="checkBox">
+            <label for="house">Maison</label>
+            <input class="checkBoxInput" id="house" type="checkBox">
+            <label for="loft">Loft</label>
+            <input class="checkBoxInput" id="loft" type="checkBox">
+            <label for="bureau">Bureau</label>
+            <input class="checkBoxInput" id="bureau" type="checkBox">
+            <label for="commercial">Commercia</label>
+            <input class="checkBoxInput" id="commercial" type="checkBox">
+            <label for="garage">Garage</label>
+            <input class="checkBoxInput" id="garage" type="checkBox">
+            <label for="parking">Parking / Box</label>
+            <input class="checkBoxInput" id="parking" type="checkBox">
+        </div>
+        <div class="price">
+            <label for="priceMin">Prix Minimum</label>
+            <input class="textInput" id="priceMin" placeholder="16 000 €" type="number" min="16000">
+            <label for="priceMax">Prix Maximum</label>
+            <input class="textInput" id="priceMax" placeholder="2 995 000 €" type="number" max="2995000">
+        </div>
+        <div class="others">
+            <label for="location">Localisation</label>
+            <input class="textInput" id="location" placeholder="Paris" type="text">
+            <label for="rooms">Nombre de pièces</label>
+            <input class="textInput" placeholder="2" id="rooms" type="number">
+        </div>
+        <div class="surface">
+            <label for="surfaceMin">Surface minimum</label>
+            <input class="textInput" id="surfaceMin" placeholder="13m²" type="number">
+            <label for="surfaceMax">Surface maximum</label>
+            <input class="textInput" id="surfaceMax" placeholder="600m²" type="number">
+        </div>
+        <button type="submit">Rechercher !</button>
+    </form>
+
     <section class="last_offers">
         <h2 class="title">Nos dernières affaires</h2>
         <div class="sales">

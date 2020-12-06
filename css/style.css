@@ -107,35 +107,39 @@ body {
   color: rgba(151, 60, 0, 0.795);
 }
 
-.last_offers .purchases {
+.purchases {
   background: #ebe1e1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 5vh 0 0 20vh;
 }
 
-.last_offers .purchases .apartment_image {
+.purchases .apartment_image {
   border-radius: 2px;
   width: 70vh;
   height: 40vh;
   margin-right: 2vh;
 }
 
-.last_offers .purchases .purchase {
+.purchases .purchase {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 9vh;
 }
 
-.last_offers .purchases .purchase .list {
+.purchases .purchase .list {
   list-style-image: url("images/diamond2.png");
 }
 
-.last_offers .purchases .purchase .price {
+.purchases .purchase .price {
   font-weight: bold;
   color: rgba(151, 60, 0, 0.795);
 }
