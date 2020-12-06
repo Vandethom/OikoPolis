@@ -93,6 +93,10 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     padding: 5vh 0 0 20vh;
+    .last_sales{
+        margin-left: 50px;
+        font-size: 24px;
+    }
     .apartment_image{
         border-radius: 2px;
         width: 70vh;
