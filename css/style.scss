@@ -1,4 +1,4 @@
-$titleColor: rgb(0, 0, 0);
+$titleColor:white;
 
 @font-face{
     font-family: 'Babel Sans';
@@ -17,7 +17,7 @@ $titleColor: rgb(0, 0, 0);
 
 *{
     font-family: 'Aver';
-    font-size: 103%;
+    font-size: 99%;
 }
 
 body{
@@ -43,21 +43,21 @@ body{
 }
 
 .title{
-    margin: 25px 0 30px 0;
+    margin: 0px 0 30px 0;
     text-align: center;
     font-weight: bold;
     color: $titleColor;
     font-size: 35px;
     img{
-        width: 110px;
-        height: 110px;
+        margin-bottom: -95px;
+        width: 275px;
+        height: 275px;
     }
     .subtitle{
         font-family: 'Allura';
         color: $titleColor;
     }
 }
-
 
 
 .cards{

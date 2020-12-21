@@ -1,9 +1,17 @@
 .main {
-  background-image: url("../images/paris_city3.jpg");
+  background-image: url("../images/rueil3.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 87vh;
   width: 100%;
+}
+
+.title > h1 {
+  color: white;
+}
+
+.title > h2 {
+  color: white;
 }
 
 .sellGood h2 {
