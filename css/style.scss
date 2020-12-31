@@ -1,4 +1,4 @@
-$titleColor:white;
+$titleColor:black;
 
 @font-face{
     font-family: 'Babel Sans';
@@ -43,11 +43,11 @@ body{
 }
 
 .title{
-    margin: 0px 0 30px 0;
+    margin:  -10px 0 30px 0;
     text-align: center;
     font-weight: bold;
     color: $titleColor;
-    font-size: 35px;
+    font-size: 40px;
     img{
         margin-bottom: -95px;
         width: 275px;

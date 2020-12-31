@@ -27,6 +27,7 @@ body {
 
 .main {
   background-image: url("../images/rueil.jpg");
+  opacity: 0.85;
   background-size: 100%;
   background-repeat: no-repeat;
   height: 88vh;
@@ -34,11 +35,11 @@ body {
 }
 
 .title > h1 {
-  color: white;
+  color: black;
 }
 
 .title > h2 {
-  color: white;
+  color: black;
 }
 
 form {

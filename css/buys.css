@@ -1,5 +1,6 @@
 .main {
   background-image: url("../images/rueil3.jpg");
+  opacity: 0.9;
   background-size: 100%;
   background-repeat: no-repeat;
   height: 87vh;
@@ -7,11 +8,11 @@
 }
 
 .title > h1 {
-  color: white;
+  color: black;
 }
 
 .title > h2 {
-  color: white;
+  color: black;
 }
 
 .sellGood h2 {
