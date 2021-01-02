@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+header .navbar li a {
+  color: #8f7575;
+}
+
 .title > h1 {
   color: black;
 }
