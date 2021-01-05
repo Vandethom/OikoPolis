@@ -29,6 +29,16 @@ body{
     width: 100%;
 }
 
+.member{
+    display: flex;
+    p{
+        width: 110vh;
+    }
+    img{
+        width: 225px;
+        height: 275px;
+    }
+}
 
 .team_concept{
     display: flex;
